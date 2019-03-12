@@ -1,0 +1,36 @@
+<head>
+<style type="text/css">
+h1,h2 { color: blue; font-style: italic }
+
+.WARNING {
+          font-weight: bold;
+          font-size: 150%;
+          margin: 0 1in 0 1in;
+          background-color: yellow;
+          border: solid red 8px;
+          padding: 10px;
+}
+
+.WARNING h1, .WARNING h2 { text-align: center }
+
+#special {
+     text-align: center;
+     text-transform: uppercase;
+}
+
+</style>
+</head>
+<body>
+<h1>Incident CrowdAlert </h1>
+
+<div class="WARNING">
+<h2>Warning</h2>
+incidents around you ar shown 
+</div>
+
+<p id="special">
+incidents for a specified radius are shown <br>
+and different kind of incidents are shown in different colors <br>
+<span style = "text-transform: none">
+</span>
+</p>
