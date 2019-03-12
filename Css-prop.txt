@@ -1,0 +1,53 @@
+most important features of CSS are the properties that specify :
+the visiblity , size , precise position of indivisual elements of a document.
+
+property ::
+position
+top,left
+bottom,right
+width,height
+z-index
+display
+visibility
+clip
+overflow
+margin,border,padding
+background
+opacity
+
+Positioning elements with CSS:
+
+4 possible values for this property :
+-static 
+-absolute
+-fixed
+-relative
+
+if you set position property of an element other than static , specify position of that element with some combination 
+left , right ,bottom 
+top and left are most common : 
+
+eg :
+<div style="position: absolute; left: 100px; top: 100px;">
+
+- z-index
+- <text-shadow>
+
+part of CSS BOX MODEL :
+-->Borders , margins , padding :: almost for all the child content areas
+
+-"content-box model"
+- visibility : hidden
+- display
+- color
+-Transparency
+-Translucency
+-Partial Visibility : overflow and clip 
+visible , hidden , scroll , auto
+overflow property :
+clip property :
+  syntax of clip property ::
+  rect(top right bottom left)
+  
+
+
