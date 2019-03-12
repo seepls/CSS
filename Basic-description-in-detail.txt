@@ -1,0 +1,44 @@
+visual presentation of HTML document L CSS
+specify : 
+- fonts
+- colors 
+- margin
+- indentation
+- borders
+- position of document element 
+
+
+Scripted CSS enables a variety of interesting visual effects :
+- animated transitions etc
+
+-- there are various variables in visual display of an html doc
+ CSS standard enumerates these variables and call them style properties 
+
+to define the visual appearance of HTML elements we specify value of CSS properties
+
+name : value ;
+
+- style 
+- stylesheet: associates sets of style properties with set of html elements that are described using selectors .
+A selector selects one or more elements of a document based on ID , class or tag name .
+
+basic element of CSS stylesheet is a style rule ::::
+{selector : set of CSS properties and their values }
+any number of style rules 
+
+stylesheet -> HTML doc  : enclose in <style> </style>
+
+within head of a document 
+
+if a CSS file to be used more than one page on a website : store it in its own file ( without any enclosing HTML tags)
+then it can be included in the HTML page .
+to include a stylesheet in an HTML page use a <link> in the <head> of a document 
+
+
+
+
+
+
+
+
+
