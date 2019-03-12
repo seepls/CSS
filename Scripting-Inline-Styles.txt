@@ -1,0 +1,29 @@
+straightforward : alter style attribute of indivisual document elements
+style is a property of element object 
+can manipulate in JS 
+e.style.fontSize = " " ;
+e.style.fontWeight= "  ";
+e.style.color= " " ;
+e.style.position = " " ; // the four posibilities 
+e.style.fontFamily= " " ;
+e.style.margin
+e.getAttribute("style");
+e.style.cssText;
+
+marginTop
+marginRight
+marginBottom
+marginLeft
+
+CSS Animations :
+use of scripted CSS is to produce animated visual effects
+use of 
+- setTimeout() | setInterval() : to repeatedly invoke a function that alters the inline style of an element
+- shake() : quickly moves an element from side to side | 
+- fadeOut() : decreases opacity of an element over a specified amt of time 
+
+both shake() and fadeout() accept an optional callback function as their second argument.
+
+<button onclick="shake(this, fadeOut);">Shake amd fade </button>
+
+
