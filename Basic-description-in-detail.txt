@@ -35,6 +35,22 @@ then it can be included in the HTML page .
 to include a stylesheet in an HTML page use a <link> in the <head> of a document 
 
 
+3 sources :
+- Styles from the style attribute 
+- styles from stylesheets
+- browsers default styles
+
+visual is the combination from all the three sources 
+
+To display any document element the web browser must combine the style attribute of that element with styles from all the matched slectors in the document stylesheets 
+
+the result of this computation is the actual set of style properties and values are the used to display the element .
+This set of values is known as the computed style of the element 
+
+
+
+
+
 
 
 
